@@ -1,0 +1,155 @@
+* {
+    margin: 0%;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    background-color:#DCE0D9 ;
+}
+
+
+/*Colores
+#30343F=Gunmetal
+#1E2749=Spacecadet
+#616283=Violeta
+#91CB3E=Verde (clarito)
+#119822=Verde "oscuro"
+#080F0F=Negro
+#DCE0D9=Blanco
+#84828F=Gris
+#F9CB40=Amarillo(Solar)
+#08415C=Azul(oscurito)
+*/
+
+/*HEADER*/
+header{
+    height: 100%;
+    background-color: #84828F;
+    position: sticky; 
+    top: 0px;
+}
+nav{
+    height: 100%;
+    border: 2px solid black;
+   
+}
+a{
+    text-decoration: none;
+    color:#F9CB40 ;
+    font-size: 1.5rem;
+ 
+}
+ul{
+  display: flex;
+  justify-content: space-evenly;  
+  list-style: none;
+}
+
+/*Letras:
+font-family: 'Borel', cursive;
+font-family: 'Inter', sans-serif;
+font-family: 'Oswald', sans-serif;*/
+
+/*MAIN Inicio(base para los otros)*/
+
+ h1{
+    font-size: 8rem;
+    text-align: center;
+    margin-top: 0.5rem;  
+    font-family: 'Oswald', sans-serif;
+ }
+
+ h2{
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 1.5rem;
+ }
+/*Presentacion, distribucion de las imagenes y opciones iniciales*/
+ .inicio{
+    display: flex;
+    justify-content: space-evenly;
+  margin-left: 6rem;
+  margin-top: 4rem;
+  font-size: 2rem;
+ }
+ .iniciop{
+   display: flex;
+   justify-content: space-around;
+   margin-right: 18rem;
+ margin-top: 4rem;
+ font-size: 2rem;
+ }
+/*Tamaño de las imagenes iniciales*/
+ .img{
+    height: 21rem;
+    width: 20rem;  
+ }
+
+ footer{
+    margin-top: 22rem;
+    background-color:#84828F ;
+    text-align: left;
+    font-family: 'Borel', cursive;
+ }
+/*Estilo de parrafos del footer*/ 
+ .parrafo{
+    font-size: 2rem;
+
+ }
+/*Estilo de los logos*/
+ .imglogo{
+    height: 3rem;
+    width: 3rem;
+ }
+
+ /*Modelo Tiendas */
+
+
+/*Margen superior de las imagenes */
+.articlearticulos{
+   margin-top: 10rem;
+}
+/*Distribucion de los productos de las tiendas */
+ .producto{ 
+  width: 50rem;
+}
+.parrafodeproducto{
+   text-align: center;
+   font-size: 1.5rem;
+   color: #080F0F;
+   margin-left: 8rem;
+}
+ .modelos{
+   margin-top: 10rem;
+   font-size: 2rem;
+  color:#119822;
+ }
+ /*Configuracion del estilo del texto para venderte el producto*/
+ 
+ 
+ /*Configuracion del estilo del precio del producto*/
+ .textoprecio{
+   margin-left: 8rem;
+   margin-top: 1.5rem;
+   text-align: center;  
+   font-size: 2.5rem;
+   color: #08415C;   
+ }
+
+@media (min-width: 350px){
+   .inicio{
+      margin-top: 4rem;
+      margin-left: 2rem;
+flex-direction: column;
+align-items: center;
+   }
+
+   {
+      
+   }
+}
+ 
+ 
+ 
+ 
