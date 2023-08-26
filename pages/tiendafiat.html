@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
    <link rel="stylesheet" href="../css/estilos.css">
 </head>
 <body>
@@ -34,10 +35,23 @@
         <h2>Los mejores autos de la empresa italiana, Fiat</h2>
 
         <section>
-            <p class="modelos">Modelos:</p>
+            
+            <div id="Modelo" class="btn-group">
+                <button type="button" class="btn btn-success dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                  Modelos
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#Modelo2">Modelos Strada</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Separated link</a></li>
+                </ul>
+              </div>
+
             <article class="articlearticulos">
                 <div class="inicio">
-                    <img class=producto src="../img/cronos.png" alt="cronos">
+                    <img class=producto src="../img/fiat-Cronos-1.png" alt="cronos">
                 </div>
                 <div class="parrafodeproducto">
                     <p>Fiat Cronos: El auto más vendido de Argentina recibió una actualización. La principal novedad mecánica es la nueva versión CVT.</p>
@@ -49,15 +63,67 @@
 
             <article class="articlearticulos">
                 <div class="inicio">
+                    <img class=producto src="../img/Fiat-2016.jpg" alt="cronos 2016">
+                </div>
+                <div class="parrafodeproducto">
+                    <p>Fiat Cronos 2016: El FiatCronos sigue rompiendo récords. Ahora superó al 600 como el segundo modelo más producido de la marca en el país, solo por detrás del Siena.</p>
+                </div>
+                <div class="textoprecio">
+                    <p>312240$</p>
+                </div>
+            </article>
+
+            <article class="articlearticulos">
+                <div class="inicio">
+                    <img class=producto src="../img/cronos.png" alt="cronos 2018">
+                </div>
+                <div class="parrafodeproducto">
+                    <p>Fiat Cronos 2018: El nuevo sedán de Fiat para el Segmento B (chico). La marca asegura que “no es un Argo con baúl”, pero comparte componentes y mecánicas con ese...</p>
+                </div>
+                <div class="textoprecio">
+                    <p>340400$</p>
+                </div>
+            </article>
+
+            <article class="articlearticulos">
+
+                <div id="Modelo2" class="btn-group">
+                    <button type="button" class="btn btn-success dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                      Modelos
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#Modelo">Inicio</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Separated link</a></li>
+                    </ul>
+                  </div> 
+
+                <div class="inicio">
+                    <img class=producto src="../img/Strada-2021.jpg" alt="strada 2021">
+                </div>
+                <div class="parrafodeproducto">
+                    <p>Fiat Strada-2021: La Fiat Strada 2021 deja atrás la plataforma que la había acompañado desde hace más de dos décadas. La nueva generación recurre a la misma arquitectura de lanzamientos recientes de Fiat, como el Argo, lo que trae ventajas al hablar de calidad de marcha.</p>
+                </div>
+                <div class="textoprecio">
+                    <p>580340$</p>
+                </div>
+            </article>
+
+            <article class="articlearticulos">
+                <div class="inicio">
                     <img class="producto" src="../img/strada.png" alt="Fiat strada">
                 </div>
                 <div class="parrafodeproducto">
-                    <p>Fiat Strada: Fiat Strada es uno de los modelos más emblemáticos de la gama, y con su último cambio generacional incorporó una gran cantidad de componentes tecnológicos bastante destacados para el segmento.</p>
+                    <p>Fiat Strada Volcano: Fiat Strada es uno de los modelos más emblemáticos de la gama, y con su último cambio generacional incorporó una gran cantidad de componentes tecnológicos bastante destacados para el segmento.</p>
                 </div>
                 <div class="textoprecio">
                     <p>640200$</p>
                 </div>
             </article>
+
+            
         </section>
     </main>
     <footer class="parrafo">
@@ -70,4 +136,7 @@
         </ul>    
     </footer>
 </body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
 </html>

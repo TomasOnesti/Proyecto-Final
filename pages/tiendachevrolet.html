@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/estilos.css">
 </head>
 <body>
@@ -33,7 +34,20 @@
         <h1 class="titulo">Tienda Chevrolet</h1>
         <h2>Los mejores autos de Chevrolet</h2>
         <section>
-            <p class="modelos">Modelos:</p>
+          
+            <div id="Modelo0" class="btn-group">
+                <button type="button" class="btn btn-success dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                  Modelos
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#Modelo1">Chevrolet Cruze</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Separated link</a></li>
+                </ul>
+              </div>
+
             <article class="articlearticulos">
                 <div class="inicio">
             <img class="producto" src="../img/red-e-or-not-red-met5.webp" alt="onix">
@@ -45,6 +59,32 @@
                     <p>543500$</p>
                 </div>
             </article>
+
+            <div id="Modelo1" class="btn-group">
+                <button type="button" class="btn btn-success dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                  Modelos
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#Modelo0">Inicio</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Separated link</a></li>
+                </ul>
+              </div>
+
+            <article class="articlearticulos">
+                <div class="inicio">
+            <img class="producto" src="../img/Cruze-2014.jpg" alt="Cruze-2014">
+                </div>
+                <div class="parrafodeproducto">
+                    <p>Chevrolet Cruze-2014: El Chevrolet Cruze 2014, fue el primer modelo en utilizar la nueva plataforma que el Grupo General Motors prepara para sus modelos sedán compactos y 'crossover'.</p>
+                </div>
+                <div class="textoprecio">
+                    <p>543500$</p>
+                </div>
+            </article>
+
 
             <article class="articlearticulos">
                 <div class="inicio">
@@ -70,4 +110,7 @@
         </ul>    
 </footer>
 </body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
 </html>

@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/estilos.css">
 </head>
 
@@ -13,10 +14,10 @@
         <nav>
             <ul>
                 <li>
-                    <a href="./sobrenosotros.html">Sobrenosotros</a>
+                    <a href="../index.html">Inicio</a>
                 </li>
                 <li>
-                    <a href="../index.html">Inicio</a>
+                    <a href="./tiendafiat.html">Fiat</a>
                 </li>
                 <li>
                     <a href="./tiendavw.html">Volkswagen</a>
@@ -31,14 +32,28 @@
         </nav>
        </header> 
    <main>
-    <h1 class="titulo">
+    <h1 >
         Tienda Volkswagen
     </h1>
     <h2>
         Los mejores autos de Volkswagen 
      </h2>
     <section>
-        <p class="modelos">Modelos:</p>
+       
+
+        <div id="Modelo0" class="btn-group">
+            <button type="button" class="btn btn-success dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+              Modelos
+            </button>
+            <ul  class="dropdown-menu">
+              <li><a class="dropdown-item" href="#Modelo1">Modelo Nivus</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Separated link</a></li>
+            </ul>
+          </div>
+
         <article class="articlearticulos">
             <div class="inicio">
                <img class="producto" src="../img/polo-gti-7-1625045523 (1).jpg" alt="polo-gti-7"> 
@@ -62,6 +77,31 @@
                 <p> 430000$ </p>
             </div>
         </article>
+
+        <div id="Modelo1" class="btn-group">
+            <button type="button" class="btn btn-success dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+              Modelos
+            </button>
+            <ul  class="dropdown-menu">
+              <li><a class="dropdown-item" href="#Modelo0">Inicio</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Separated link</a></li>
+            </ul>
+          </div>
+
+          <article class="articlearticulos">
+            <div class="inicio">
+                <img class="producto" src="../img/VW-Nivus.jpg" alt="polo-2021">
+            </div>
+            <div class="parrafodeproducto">
+                <p>Nivus:El VW Nivus forma parte de la ofensiva de SUVs que la marca está realizando a nivel global, por eso se engloba dentro de este rubro, aunque sea más un crossover o CUV.</p>
+            </div>
+            <div class="textoprecio">
+                <p> 1300000$ </p>
+            </div>
+        </article>
     </section>
    </main>
    <footer class="parrafo">
@@ -73,5 +113,8 @@
         </li>
     </ul>    
 </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
 </body>
 </html>
