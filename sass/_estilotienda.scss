@@ -1,0 +1,37 @@
+section{
+    .articlearticulos{
+        margin-top: 10rem;
+         .iniciot{
+            display: flex;
+            justify-content: space-evenly;
+            margin-left: 6rem;
+            margin-top: 4rem;
+            font-size: 2rem;
+             .producto{
+                width: 50rem;
+            }
+        }
+        .parrafodeproducto{
+            text-align: center;
+            font-size: 2rem;
+            color: #080F0F;
+            transition: 4s;
+            color: rgb(84, 81, 81);
+            margin-left: 4rem;
+         }
+
+         .textoprecio{
+            margin-left: 8rem;
+            margin-top: 1.5rem;
+            text-align: center;  
+            font-size: 2.5rem;
+            color: rgb(8, 152, 92);
+            transition: 4s;
+          }
+
+        .textoprecio:hover{
+            color: #08415C;
+            transform: rotate(5deg);
+        }
+    }
+}

@@ -1,220 +1,202 @@
-* {
-    margin: 0%;
-    padding: 0;
+section .articlearticulos {
+  margin-top: 10rem;
 }
-
-html{
-    font-size: 62.5%;
-    background-color:#DCE0D9 ;
-}
-
-
-/*Colores
-#30343F=Gunmetal
-#1E2749=Spacecadet
-#616283=Violeta
-#91CB3E=Verde (clarito)
-#119822=Verde "oscuro"
-#080F0F=Negro
-#DCE0D9=Blanco
-#84828F=Gris
-#F9CB40=Amarillo(Solar)
-#08415C=Azul(oscurito)
-#FF0000=Rojo
-*/
-
-/*HEADER*/
-header{
-    height: 100%;
-    background-color: #84828F;
-    position: sticky; 
-    top: 0px;
-}
-nav{
-    height: 100%;
-    border: 2px solid black;
-   
-}
-a{
-    text-decoration: none;
-    color:#F9CB40 ;
-    font-size: 1.5rem;
- 
-}
-ul{
+section .articlearticulos .iniciot {
   display: flex;
-  justify-content: space-evenly;  
+  justify-content: space-evenly;
+  margin-left: 6rem;
+  margin-top: 4rem;
+  font-size: 2rem;
+}
+section .articlearticulos .iniciot .producto {
+  width: 50rem;
+}
+section .articlearticulos .parrafodeproducto {
+  text-align: center;
+  font-size: 2rem;
+  color: #080F0F;
+  transition: 4s;
+  color: rgb(84, 81, 81);
+  margin-left: 4rem;
+}
+section .articlearticulos .textoprecio {
+  margin-left: 8rem;
+  margin-top: 1.5rem;
+  text-align: center;
+  font-size: 2.5rem;
+  color: rgb(8, 152, 92);
+  transition: 4s;
+}
+section .articlearticulos .textoprecio:hover {
+  color: #08415C;
+  transform: rotate(5deg);
+}
+
+* {
+  margin: 0%;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+header {
+  height: 100%;
+  background: rgb(242, 40, 249);
+  background: -moz-linear-gradient(90deg, rgba(242, 40, 249, 0.9148679935) 28%, rgba(108, 0, 255, 0.9459238941) 50%, rgba(28, 218, 223, 0.840333832) 75%);
+  background: -webkit-linear-gradient(90deg, rgba(242, 40, 249, 0.9148679935) 28%, rgba(108, 0, 255, 0.9459238941) 50%, rgba(28, 218, 223, 0.840333832) 75%);
+  background: linear-gradient(90deg, rgba(242, 40, 249, 0.9148679935) 28%, rgba(108, 0, 255, 0.9459238941) 50%, rgba(28, 218, 223, 0.840333832) 75%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f228f9",endColorstr="#1cdadf",GradientType=1);
+  position: sticky;
+  top: 0px;
+}
+header nav {
+  height: 100%;
+  border: 2px solid black;
+}
+header nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+header nav ul a {
+  text-decoration: none;
+  color: #F9CB40;
+  font-size: 1.5rem;
+}
+
+h1 {
+  font-size: 8rem;
+  text-align: center;
+  margin-top: 0.5rem;
+  font-family: "Oswald", sans-serif;
+}
+
+h2 {
+  font-size: 3rem;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.inicio {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 6rem;
+  margin-top: 4rem;
+  font-size: 2rem;
+}
+.inicio .img {
+  height: 21rem;
+  width: 20rem;
+}
+
+.iniciop {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 2rem;
+  margin-top: 4rem;
+  font-size: 2rem;
+}
+
+.Amain {
+  margin-top: 2.5rem;
+  font-family: "Inter", sans-serif;
+  font-size: 1.5rem;
+}
+
+.iniciol {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 8rem;
+  margin-top: 4rem;
+  font-size: 1.5rem;
+}
+
+.parrafo {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5rem;
+  background: rgb(28, 218, 223);
+  background: -moz-linear-gradient(90deg, rgba(28, 218, 223, 0.9148679935) 25%, rgba(242, 40, 249, 0.9552406643) 50%, rgba(108, 0, 255, 0.8651785525) 82%);
+  background: -webkit-linear-gradient(90deg, rgba(28, 218, 223, 0.9148679935) 25%, rgba(242, 40, 249, 0.9552406643) 50%, rgba(108, 0, 255, 0.8651785525) 82%);
+  background: linear-gradient(90deg, rgba(28, 218, 223, 0.9148679935) 25%, rgba(242, 40, 249, 0.9552406643) 50%, rgba(108, 0, 255, 0.8651785525) 82%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1cdadf",endColorstr="#6c00ff",GradientType=1);
+  text-align: left;
+  font-family: "Borel", cursive;
+  font-size: 2rem;
+  margin-top: 5rem;
+}
+.parrafo .imglogo {
+  height: 3rem;
+  width: 3rem;
+}
+.parrafo ul {
   list-style: none;
 }
 
-/*Letras:
-font-family: 'Borel', cursive;
-font-family: 'Inter', sans-serif;
-font-family: 'Oswald', sans-serif;*/
-
-/*MAIN Inicio(base para los otros)*/
-
- h1{
-    font-size: 8rem;
+@media (max-width: 500px) {
+  .inicio {
+    margin-top: 4rem;
+    margin-left: 2rem;
+    flex-direction: column;
+    align-items: center;
+  }
+  .hm {
+    background: rgb(223, 28, 52);
+    background: -moz-linear-gradient(90deg, rgba(223, 28, 52, 0.8651785525) 34%, rgb(6, 225, 117) 50%, rgba(255, 92, 0, 0.8185947015) 66%);
+    background: -webkit-linear-gradient(90deg, rgba(223, 28, 52, 0.8651785525) 34%, rgb(6, 225, 117) 50%, rgba(255, 92, 0, 0.8185947015) 66%);
+    background: linear-gradient(90deg, rgba(223, 28, 52, 0.8651785525) 34%, rgb(6, 225, 117) 50%, rgba(255, 92, 0, 0.8185947015) 66%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#df1c34",endColorstr="#ff5c00",GradientType=1);
+  }
+  .inicior {
+    font-size: 2rem;
+    font-family: "Inter", sans-serif;
+    color: #FF0000;
+  }
+  .iniciop {
+    display: none;
+  }
+  .iniciol {
+    display: none;
+  }
+  .producto {
+    width: 20rem;
+  }
+  .parrafodeproducto {
     text-align: center;
-    margin-top: 0.5rem;  
-    font-family: 'Oswald', sans-serif;
- }
-
- h2{
+    font-size: 0.5rem;
+    color: #080F0F;
+    margin-left: 8rem;
+  }
+  h1 {
     font-size: 3rem;
     text-align: center;
-    margin-top: 1.5rem;
- }
-/*Presentacion, distribucion de las imagenes y opciones iniciales*/
- .inicio{
-    display: flex;
-    justify-content: space-evenly;
-  margin-left: 6rem;
-  margin-top: 4rem;
-  font-size: 2rem;
- }
-
-/* .inicior{
-   display: none;
-}   */
-
-.iniciol{
-   display: flex;
-    justify-content: space-evenly;
-  margin-left: 6rem;
-  margin-top: 4rem;
-  font-size: 2rem;
+    margin-top: 1rem;
+    font-family: "Oswald", sans-serif;
+  }
+  h2 {
+    font-size: 1.5rem;
+    font-family: "Oswald", sans-serif;
+  }
+  a {
+    font-size: 1rem;
+    text-decoration: none;
+    color: #F9CB40;
+  }
+  .parrafo {
+    background: rgb(255, 92, 0);
+    background: -moz-linear-gradient(90deg, rgba(255, 92, 0, 0.8185947015) 34%, rgb(223, 28, 52) 50%, rgba(6, 225, 117, 0.8620729624) 66%);
+    background: -webkit-linear-gradient(90deg, rgba(255, 92, 0, 0.8185947015) 34%, rgb(223, 28, 52) 50%, rgba(6, 225, 117, 0.8620729624) 66%);
+    background: linear-gradient(90deg, rgba(255, 92, 0, 0.8185947015) 34%, rgb(223, 28, 52) 50%, rgba(6, 225, 117, 0.8620729624) 66%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff5c00",endColorstr="#06e175",GradientType=1);
+  }
+}
+@media (min-width: 501px) {
+  .inicior {
+    display: none;
+  }
 }
 
- .iniciop{
-   display: flex;
-   justify-content: space-around;
-  margin-left: 2rem;
- margin-top: 4rem;
- font-size: 2rem;
- }
-/*Tamaño de las imagenes iniciales*/
- .img{
-    height: 21rem;
-   width: 20rem;  
- }
-
- footer{
-    margin-top: 22rem;
-    background-color:#84828F ;
-    text-align: left;
-    font-family: 'Borel', cursive;
- }
-/*Estilo de parrafos del footer*/ 
- .parrafo{
-    font-size: 2rem;
-
- }
-/*Estilo de los logos*/
- .imglogo{
-    height: 3rem;
-    width: 3rem;
- }
-
- /*Modelo Tiendas */
-
-
-/*Margen superior de las imagenes */
-.articlearticulos{
-   margin-top: 10rem;
-}
-/*Distribucion de los productos de las tiendas */
- .producto{ 
-  width: 50rem;
-}
-/*Configuracion del estilo del texto para venderte el producto*/
-.parrafodeproducto{
-   text-align: center;
-   font-size: 1.5rem;
-   color: #080F0F;
-   margin-left: 8rem;
-}
- 
- 
- /*Configuracion del estilo del precio del producto*/
- .textoprecio{
-   margin-left: 8rem;
-   margin-top: 1.5rem;
-   text-align: center;  
-   font-size: 2.5rem;
-   color: #08415C;   
- }
-
- /* Modelo Responsive */
-
-@media (max-width: 500px){
-   .inicio{
-      margin-top: 4rem;
-      margin-left: 2rem;
-      flex-direction: column;
-      align-items: center;
-   }
-
-.inicior{
-   font-size: 2rem;
-   font-family: 'Inter', sans-serif;
-   color: #FF0000;
-}
-
-   .iniciop{
-      display: none;
-   }
-
-   .iniciol{
-      display: none;
-   }
-
-.producto{
-   width: 38rem;
-}
-
-.parrafodeproducto{
-   text-align: center;
-   font-size: 1rem;
-   color: #080F0F;
-   margin-left: 8rem;
-}
-
-h1{
-   font-size: 5rem;
-   text-align: center;
-   margin-top: 0.5rem;  
-   font-family: 'Oswald', sans-serif;
-}
-
-h2{
-   font-size: 1rem;
-}
-
-a{
-   font-size: 1rem;
-   text-decoration: none;
-   color:#F9CB40 ;
-}
-}
-
-@media (min-width: 501px){
-   .inicior{
-      display: none;
-   }
-
-}
-
-/* Bootstrap */
-.btn-group{
-
-}
-
-
-
-
- 
- 
- 
- 
+/*# sourceMappingURL=estilos.css.map */
