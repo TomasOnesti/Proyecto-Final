@@ -5,8 +5,6 @@ section .articlearticulos .iniciot {
   display: flex;
   justify-content: space-evenly;
   margin-left: 6rem;
-  margin-top: 4rem;
-  font-size: 2rem;
 }
 section .articlearticulos .iniciot .producto {
   width: 50rem;
@@ -124,9 +122,13 @@ h2 {
   background: linear-gradient(90deg, rgba(28, 218, 223, 0.9148679935) 25%, rgba(242, 40, 249, 0.9552406643) 50%, rgba(108, 0, 255, 0.8651785525) 82%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1cdadf",endColorstr="#6c00ff",GradientType=1);
   text-align: left;
+  text-align: left;
   font-family: "Borel", cursive;
   font-size: 2rem;
   margin-top: 5rem;
+  align-self: flex-end;
+  position: relative;
+  align-items: center;
 }
 .parrafo .imglogo {
   height: 3rem;
@@ -155,20 +157,22 @@ h2 {
     font-family: "Inter", sans-serif;
     color: #FF0000;
   }
+  section .articlearticulos {
+    margin-top: 5rem;
+  }
+  section .articlearticulos .iniciot {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 1.5rem;
+  }
+  section .articlearticulos .iniciot .producto {
+    width: 35rem;
+  }
   .iniciop {
     display: none;
   }
   .iniciol {
     display: none;
-  }
-  .producto {
-    width: 20rem;
-  }
-  .parrafodeproducto {
-    text-align: center;
-    font-size: 0.5rem;
-    color: #080F0F;
-    margin-left: 8rem;
   }
   h1 {
     font-size: 3rem;
