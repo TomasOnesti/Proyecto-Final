@@ -67,7 +67,7 @@ header nav ul a {
 h1 {
   font-size: 8rem;
   text-align: center;
-  margin-top: 0.5rem;
+  margin-top: 3rem;
   font-family: "Oswald", sans-serif;
 }
 
@@ -75,14 +75,14 @@ h2 {
   font-size: 3rem;
   font-family: "Oswald", sans-serif;
   text-align: center;
-  margin-top: 1.5rem;
+  margin-top: 2rem;
 }
 
 .inicio {
   display: flex;
   justify-content: space-evenly;
   margin-left: 6rem;
-  margin-top: 4rem;
+  margin-top: 8rem;
   font-size: 2rem;
 }
 .inicio .img {
@@ -93,13 +93,13 @@ h2 {
 .iniciop {
   display: flex;
   justify-content: space-around;
-  margin-left: 2rem;
-  margin-top: 4rem;
+  margin-left: 4rem;
+  margin-top: 8rem;
   font-size: 2rem;
 }
 
 .Amain {
-  margin-top: 2.5rem;
+  margin-top: 4rem;
   font-family: "Inter", sans-serif;
   font-size: 1.5rem;
 }
